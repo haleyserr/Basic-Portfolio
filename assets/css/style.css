@@ -1,4 +1,3 @@
-
 /*
     Teal color (used for headings and backgrounds): #4aaaa5
     Regular font color (used for paragraphs and all text besides the headings): #777777
@@ -11,19 +10,140 @@
     For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
     The entire content and the main section content area is 960px wide
  */
- .header {background color: #ffffff; border color: #cccccc; border style: solidcolor;}
- .myname {Background color: #4aaaa5; fontfamily: Georgia, Times, "Times New Roman", Times, serif; font color: #ffffff; }
- .content { background color: #ffffff; border color: #dddddd; border style: solidcolor;}
-.teal {background: #4aaaa5;}
-.regularfont {font color: #777777 ; font family: Arial, Helvetica, "Helvetica Neue", sans-serif;}
-.tealfont {font color: #4aaaa5; font family: Georgia, Times, "Times New Roman", serif;}
-.whitefont {font color: #ffffff;font family: Georgia, Times, "Times New Roman", serif;}
-.footer {background color: #666666; Border color: #dddddd; border style: solidcolor; }
 
-
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
-body {font-size: 18px;
-      line-height: 34 px;
-      font family: Arial, Helvetica, "Helvetica Neue", sans-serif;
-      font color: #777777}
+
+body {
+    background: #999999;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
+    font: #777777;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+
+}
+
+
+#mypicture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+nav a {
+    color: #999999;
+    text-decoration: underline;
+    margin-left: 15px;
+    display: inline-block;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+#myname {
+    Background: #4aaaa5;
+    font-size: 18px;
+    font-family: Georgia, Times, "Times New Roman", Times, serif;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    width: 250px;
+    height: 90px;
+
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 22px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    font-size: 22px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.focussection {
+    background: #ffffff;
+    padding: 30px 30px 30px 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 650px;
+    float: center;
+    border: 1px solid #dddddd;
+}
+
+.focuscontainer {
+    padding-top: 100 px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+footer {
+    background: #666666;
+    padding: 30px 0;
+    border-top: 8px solid #4aaaa5;
+    color: #cccccc;
+    font-size: 12px;
+    text-align: center;
+    float: bottom;
+}
+
+.portfoliopicture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+.portfolio {
+    width: 274 px;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
